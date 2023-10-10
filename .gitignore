@@ -1,0 +1,11 @@
+# Exclude IDE stuff
+.idea
+
+# Exclude the local part of mounting volumes
+docker-volumes/*
+
+# Keep some specific files in some very specific places
+!.gitkeep
+!docker-volumes/cassandra-cluster-server-1/.gitkeep
+!docker-volumes/cassandra-cluster-server-2/.gitkeep
+!docker-volumes/cassandra-cluster-server-3/.gitkeep
