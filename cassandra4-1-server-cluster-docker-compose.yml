@@ -30,7 +30,7 @@ services:
         environment: &environment
             # The first two nodes will be seeds
             CASSANDRA_SEEDS: "cassandra4-single-cluster-server-1"
-            CASSANDRA_CLUSTER_NAME: CassandraPW
+            CASSANDRA_CLUSTER_NAME: CassandraSP
             CASSANDRA_DC: Mars
             CASSANDRA_RACK: West
             CASSANDRA_ENDPOINT_SNITCH: GossipingPropertyFileSnitch
